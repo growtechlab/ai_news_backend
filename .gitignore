@@ -8,6 +8,7 @@ __pycache__/
 venv/
 env/
 data.json
+staticfiles/
 
 # Django stuff
 *.log
