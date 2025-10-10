@@ -3,9 +3,9 @@ import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-...'  # production me environment variable use karo
+#SECRET_KEY = 'django-insecure-...'  # production me environment variable use karo
 DEBUG = False
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']  # production me apna domain/IP yahan daalo
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost','web-production-22c8a.up.railway.app']  # production me apna domain/IP yahan daalo
 
 # Installed apps
 INSTALLED_APPS = [
